@@ -118,4 +118,4 @@ GitHub organization: [github.com/esegue-ai](https://github.com/esegue-ai)
 
 ---
 
-© 2026 eSEGUE. All rights reserved.
+© 2026 eSEGuE.ai. All rights reserved.
