@@ -1,12 +1,12 @@
-# eSEGuE.ai
+# eSEGuE
 
 **Systematic Market Intelligence for disciplined investment decisions.**
 
-eSEGuE.ai is a quantitative research and decision-support framework designed to transform market data into structured, explainable and risk-aware insights.
+eSEGuE is a quantitative research and decision-support framework designed to transform market data into structured, explainable and risk-aware insights.
 
 The project combines equity opportunity ranking, cross-asset regime analysis, market rotation detection, systematic validation and controlled execution workflows.
 
-## What eSEGuE.ai Does
+## What eSEGuE Does
 
 eSEGuE is organized around two complementary intelligence engines:
 
@@ -32,7 +32,7 @@ Monitors multiple asset classes and geographic regions to:
 
 ## Beyond Signal Generation
 
-eSEGuE.ai includes a broader operating framework for:
+eSEGuE includes a broader operating framework for:
 
 - automated data collection and validation;
 - systematic signal logging;
@@ -58,7 +58,7 @@ The platform is developed primarily in Python and integrates:
 
 ## Design Principles
 
-eSEGuE.ai is built around five principles:
+eSEGuE is built around five principles:
 
 1. **Explainability**  
    Every signal should be traceable to observable market evidence.
@@ -77,7 +77,7 @@ eSEGuE.ai is built around five principles:
 
 ## Project Status
 
-eSEGuE.ai is currently an actively developed private research project.
+eSEGuE is currently an actively developed private research project.
 
 This public repository contains selected materials about:
 
@@ -118,4 +118,4 @@ GitHub organization: [github.com/esegue-ai](https://github.com/esegue-ai)
 
 ---
 
-© 2026 eSEGuE.ai. All rights reserved.
+© 2026 eSEGuE. All rights reserved.
