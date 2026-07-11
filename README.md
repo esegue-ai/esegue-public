@@ -90,14 +90,6 @@ This public repository contains selected materials about:
 
 The proprietary source code, credentials, execution logic and sensitive operational data are maintained separately in a private repository.
 
-## Repository Structure
-
-```text
-docs/           Public documentation
-presentations/  Non-confidential project presentations
-research/       Selected research notes and aggregated findings
-roadmap/        Product direction and planned developments
-
 ## Roadmap
 
 Current areas of development include:
