@@ -97,3 +97,33 @@ docs/           Public documentation
 presentations/  Non-confidential project presentations
 research/       Selected research notes and aggregated findings
 roadmap/        Product direction and planned developments
+
+## Roadmap
+
+Current areas of development include:
+
+- broader European and cross-asset coverage;
+- improved market-regime classification;
+- dynamic signal prioritization;
+- probabilistic price and volatility models;
+- enhanced portfolio-level risk analytics;
+- institutional-grade reporting and monitoring;
+- controlled access to interactive intelligence outputs.
+
+## Disclaimer
+
+eSEGUE is a research and decision-support project.
+
+The materials published in this repository are provided for informational purposes only and do not constitute investment advice, an offer, or a recommendation to buy or sell any financial instrument.
+
+Past or simulated performance does not guarantee future results.
+
+## Contact
+
+Website: [esegue.ai](https://esegue.ai)
+
+GitHub organization: [github.com/esegue-ai](https://github.com/esegue-ai)
+
+---
+
+© 2026 eSEGUE. All rights reserved.
