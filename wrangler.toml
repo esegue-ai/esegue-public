@@ -1,0 +1,6 @@
+name = "esegue-public"
+compatibility_date = "2026-07-11"
+
+[assets]
+directory = "./site"
+not_found_handling = "single-page-application"

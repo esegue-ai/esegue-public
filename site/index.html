@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#173252">
+  <meta name="description" content="eSEGuE is a systematic market intelligence framework for multi-strategy equity analysis, regime classification and cross-asset rotation detection.">
+  <title>eSEGuE | Systematic Market Intelligence</title>
+  <link rel="icon" href="assets/favicon-v3.png?v=3" type="image/png">
+  <link rel="preload" href="assets/esegue-global-flows.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content" data-i18n="skip">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="eSEGuE, back to top">
+      <span class="brand-crop"><img src="assets/logo-esegue-transparent.png" alt="eSEGuE - Ranking, Regime, Rotation"></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary navigation" data-nav data-i18n-aria="nav_aria">
+      <a href="#technology" data-i18n="nav_technology">Technology</a>
+      <a href="#products" data-i18n="nav_products">Products</a>
+      <a href="#process" data-i18n="nav_process">Process</a>
+      <a href="#roadmap" data-i18n="nav_roadmap">Roadmap</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="public-github" href="https://github.com/esegue-ai/esegue-public" target="_blank" rel="noreferrer"><i data-lucide="github" aria-hidden="true"></i><span>GitHub</span></a>
+      <div class="language-switch" role="group" aria-label="Language" data-i18n-aria="language_aria">
+        <button type="button" data-language="en" aria-pressed="true">EN</button>
+        <button type="button" data-language="it" aria-pressed="false">IT</button>
+      </div>
+      <button class="icon-button nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle data-i18n-aria="open_menu">
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-tint" aria-hidden="true"></div>
+      <canvas class="flow-canvas" data-flow-canvas aria-hidden="true"></canvas>
+      <div class="hero-content shell">
+        <p class="eyebrow" data-i18n="hero_eyebrow">Systematic market intelligence</p>
+        <div class="hero-statement">
+          <h1 id="hero-title" data-i18n="hero_statement">From market context to disciplined decisions.</h1>
+          <p class="hero-support" data-i18n="hero_support">A quantitative research framework built to rank opportunities, identify regime shifts and make market evidence traceable.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="primary-action" href="#products"><span data-i18n="hero_cta">Explore the engines</span><i data-lucide="arrow-down-right" aria-hidden="true"></i></a>
+          <a class="hero-link" href="https://github.com/esegue-ai/esegue-public" target="_blank" rel="noreferrer"><span data-i18n="hero_note">View the public repository</span><i data-lucide="external-link" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="hero-index shell" aria-label="System scope" data-i18n-aria="scope_aria">
+        <span data-i18n="scope_1">01 Context</span>
+        <span data-i18n="scope_2">02 Signals</span>
+        <span data-i18n="scope_3">03 Risk</span>
+        <span data-i18n="scope_4">04 Execution</span>
+      </div>
+    </section>
+
+    <section class="positioning-band" id="technology">
+      <div class="shell positioning-copy">
+        <p class="section-label" data-i18n="technology_label">Technology</p>
+        <h2 data-i18n="technology_title">Decision intelligence that supports a disciplined workflow.</h2>
+        <p data-i18n="technology_copy">eSEGuE does not replace the investment process with a black box. It connects market data, technical structure, relative scoring and execution controls in an auditable chain where every exclusion and every action can be explained.</p>
+      </div>
+    </section>
+
+    <section class="products-band" id="products" aria-labelledby="products-title">
+      <div class="shell">
+        <div class="products-heading">
+          <div>
+            <p class="section-label" data-i18n="products_label">Products</p>
+            <h2 id="products-title" data-i18n="products_title">Two engines. One decision framework.</h2>
+          </div>
+          <p data-i18n="products_intro">The engines answer different questions: which equity opportunities deserve attention, and where capital is rotating across global markets.</p>
+        </div>
+
+        <div class="product-window">
+          <div class="product-tabs" role="tablist" aria-label="eSEGuE products" data-i18n-aria="products_aria">
+            <button type="button" role="tab" aria-selected="true" aria-controls="signal-engine" id="signal-tab" data-product-tab="signal">
+              <span>01</span>
+              <strong data-i18n="signal_short">Multi-Strategy Signal Engine</strong>
+              <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </button>
+            <button type="button" role="tab" aria-selected="false" aria-controls="regime-engine" id="regime-tab" data-product-tab="regime">
+              <span>02</span>
+              <strong data-i18n="regime_short">Market Regime Engine</strong>
+              <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
+
+          <div class="product-stage">
+            <article class="product-panel active" id="signal-engine" role="tabpanel" aria-labelledby="signal-tab" data-product-panel="signal">
+              <div class="product-visual signal-visual" aria-label="Illustrative multi-strategy Signal Engine" data-i18n-aria="signal_visual_aria">
+                <div class="visual-topline"><span data-i18n="illustrative">Illustrative system view</span><span>CONTEXT ROUTER</span></div>
+                <div class="signal-stack">
+                  <div class="active"><span data-i18n="signal_context">Market context & investment horizon</span><b>01</b></div>
+                  <div><span data-i18n="signal_volatility">Volatility Probability</span><b>02</b></div>
+                  <div><span data-i18n="signal_breakout">Breakout V3</span><b>03</b></div>
+                  <div><span data-i18n="signal_dip">Dip Long</span><b>04</b></div>
+                  <div><span data-i18n="signal_fundamental">Fundamental Ranking</span><b>05</b></div>
+                </div>
+                <div class="signal-trace" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+              <div class="product-copy">
+                <p class="product-kicker">eSEGuE / 01</p>
+                <h3 data-i18n="signal_title">Multi-Strategy Signal Engine</h3>
+                <p class="lead" data-i18n="signal_lead">Selects and ranks equity opportunities through complementary strategies that adapt to market context and investment horizon.</p>
+                <ul>
+                  <li data-i18n="signal_feature_1"><strong>Volatility Probability:</strong> short-term opportunities in uncertain, trendless markets</li>
+                  <li data-i18n="signal_feature_2"><strong>Breakout V3:</strong> short- and medium-term participation in established upward trends</li>
+                  <li data-i18n="signal_feature_3"><strong>Dip Long:</strong> value opportunities temporarily penalised by adverse macro or regime conditions</li>
+                  <li data-i18n="signal_feature_4"><strong>Fundamental Ranking:</strong> business quality and outlook not yet fully reflected in market prices</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="product-panel" id="regime-engine" role="tabpanel" aria-labelledby="regime-tab" data-product-panel="regime" hidden>
+              <div class="product-visual regime-visual" aria-label="Illustrative Market Regime Engine rotation matrix" data-i18n-aria="regime_visual_aria">
+                <div class="visual-topline"><span data-i18n="illustrative">Illustrative system view</span><span>GLOBAL</span></div>
+                <div class="rotation-item"><span data-i18n="rotation_europe">Europe</span><i style="--point:34%"></i><span data-i18n="rotation_usa">USA</span></div>
+                <div class="rotation-item"><span data-i18n="rotation_bonds">Bonds</span><i style="--point:69%"></i><span data-i18n="rotation_equity">Equity</span></div>
+                <div class="rotation-item"><span data-i18n="rotation_commodities">Commodities</span><i style="--point:61%"></i><span data-i18n="rotation_equity">Equity</span></div>
+                <div class="rotation-item"><span data-i18n="rotation_credit">Credit</span><i style="--point:29%"></i><span data-i18n="rotation_bonds">Bonds</span></div>
+                <div class="regime-states"><span>RISK ON</span><span>TRANSITION</span><span>RISK OFF</span></div>
+              </div>
+              <div class="product-copy">
+                <p class="product-kicker">eSEGuE / 02</p>
+                <h3 data-i18n="regime_title">Market Regime Engine</h3>
+                <p class="lead" data-i18n="regime_lead">Measures trend strength across equities, rates, credit, commodities and currencies to identify leadership, regime and capital rotation.</p>
+                <ul>
+                  <li data-i18n="regime_feature_1">Comparable 0-100 scores across asset-class sleeves</li>
+                  <li data-i18n="regime_feature_2">Risk appetite, inflation pulse and regional leadership</li>
+                  <li data-i18n="regime_feature_3">Stable, accelerating and reversing rotation phases</li>
+                </ul>
+                <p class="analysis-only" data-i18n="regime_analysis_only">Analysis only. This engine cannot send orders.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-band" id="process" aria-labelledby="process-title">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="section-label" data-i18n="process_label">Workflow</p>
+          <h2 id="process-title" data-i18n="process_title">A traceable path from evidence to action.</h2>
+        </div>
+        <ol class="process-flow">
+          <li><span>01</span><i data-lucide="database" aria-hidden="true"></i><h3 data-i18n="process_1_title">Acquire</h3><p data-i18n="process_1_copy">Market, event and contextual data with explicit cache and fallback provenance.</p></li>
+          <li><span>02</span><i data-lucide="scan-line" aria-hidden="true"></i><h3 data-i18n="process_2_title">Validate</h3><p data-i18n="process_2_copy">Trend, freshness and hard filters define the eligible population.</p></li>
+          <li><span>03</span><i data-lucide="list-filter" aria-hidden="true"></i><h3 data-i18n="process_3_title">Prioritise</h3><p data-i18n="process_3_copy">Scoring orders valid opportunities without overriding safety constraints.</p></li>
+          <li><span>04</span><i data-lucide="shield-check" aria-hidden="true"></i><h3 data-i18n="process_4_title">Control</h3><p data-i18n="process_4_copy">Cash, exposure, duplicate and broker checks remain independent gates.</p></li>
+          <li><span>05</span><i data-lucide="activity" aria-hidden="true"></i><h3 data-i18n="process_5_title">Evaluate</h3><p data-i18n="process_5_copy">Fills and forward outcomes feed diagnostics, backtests and policy review.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="roadmap-band" id="roadmap">
+      <div class="shell roadmap-layout">
+        <div><p class="section-label" data-i18n="roadmap_label">Roadmap</p><h2 data-i18n="roadmap_title">Building a broader market intelligence layer.</h2></div>
+        <div class="roadmap-list">
+          <div><span>01</span><p data-i18n="roadmap_1">Broader European and cross-asset coverage</p></div>
+          <div><span>02</span><p data-i18n="roadmap_2">Richer market-regime classification</p></div>
+          <div><span>03</span><p data-i18n="roadmap_3">Dynamic, evidence-based signal prioritisation</p></div>
+          <div><span>04</span><p data-i18n="roadmap_4">Portfolio-level risk and reporting analytics</p></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-layout">
+      <div>
+        <span class="footer-brand">
+          <span class="footer-brand-crop"><img src="assets/logo-esegue-transparent.png" alt="eSEGuE - Ranking, Regime, Rotation"></span>
+        </span>
+        <p data-i18n="footer_project">Independent quantitative research project.</p>
+      </div>
+      <div class="footer-links"><a href="https://github.com/esegue-ai/esegue-public" target="_blank" rel="noreferrer">GitHub</a><a href="https://esegue.ai">esegue.ai</a></div>
+      <div class="footer-disclaimer"><p data-i18n="footer_notice">For informational purposes only. Nothing published here constitutes investment advice. Past or simulated performance does not guarantee future results.</p><span>&copy; <span data-year></span> eSEGuE. All rights reserved.</span></div>
+    </div>
+  </footer>
+
+  <script src="assets/lucide.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
