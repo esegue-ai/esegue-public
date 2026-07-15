@@ -7,7 +7,8 @@ const translations = {
     signal_visual_aria: "Illustrative multi-strategy Signal Engine", signal_context: "Market context & investment horizon", signal_volatility: "Volatility Probability", signal_breakout: "Breakout V3", signal_dip: "Dip Long", signal_fundamental: "Fundamental Ranking", signal_title: "Multi-Strategy Signal Engine", signal_lead: "Selects and ranks equity opportunities through complementary strategies that adapt to market context and investment horizon.", signal_feature_1: "Volatility Probability: short-term opportunities in uncertain, trendless markets", signal_feature_2: "Breakout V3: short- and medium-term participation in established upward trends", signal_feature_3: "Dip Long: value opportunities temporarily penalised by adverse macro or regime conditions", signal_feature_4: "Fundamental Ranking: business quality and outlook not yet fully reflected in market prices",
     regime_visual_aria: "Illustrative Market Regime Engine rotation matrix", regime_title: "Market Regime Engine", regime_lead: "Measures trend strength across equities, rates, credit, commodities and currencies to identify leadership, regime and capital rotation.", regime_feature_1: "Comparable 0-100 scores across asset-class sleeves", regime_feature_2: "Risk appetite, inflation pulse and regional leadership", regime_feature_3: "Stable, accelerating and reversing rotation phases", regime_analysis_only: "Analysis only. This engine cannot send orders.", rotation_europe: "Europe", rotation_usa: "USA", rotation_bonds: "Bonds", rotation_equity: "Equity", rotation_commodities: "Commodities", rotation_credit: "Credit",
     process_label: "Workflow", process_title: "A traceable path from evidence to action.", process_1_title: "Acquire", process_1_copy: "Market, event and contextual data with explicit cache and fallback provenance.", process_2_title: "Validate", process_2_copy: "Trend, freshness and hard filters define the eligible population.", process_3_title: "Prioritise", process_3_copy: "Scoring orders valid opportunities without overriding safety constraints.", process_4_title: "Control", process_4_copy: "Cash, exposure, duplicate and broker checks remain independent gates.", process_5_title: "Evaluate", process_5_copy: "Fills and forward outcomes feed diagnostics, backtests and policy review.",
-    roadmap_label: "Roadmap", roadmap_title: "Building a broader market intelligence layer.", roadmap_1: "Broader European and cross-asset coverage", roadmap_2: "Richer market-regime classification", roadmap_3: "Dynamic, evidence-based signal prioritisation", roadmap_4: "Portfolio-level risk and reporting analytics", footer_project: "Independent quantitative research project.", footer_notice: "For informational purposes only. Nothing published here constitutes investment advice. Past or simulated performance does not guarantee future results."
+    roadmap_label: "Roadmap", roadmap_title: "Building a broader market intelligence layer.", roadmap_1: "Broader European and cross-asset coverage", roadmap_2: "Richer market-regime classification", roadmap_3: "Dynamic, evidence-based signal prioritisation", roadmap_4: "Portfolio-level risk and reporting analytics", footer_project: "Independent quantitative research project.", footer_notice: "For informational purposes only. Nothing published here constitutes investment advice. Past or simulated performance does not guarantee future results.",
+    cookie_settings: "Privacy & cookie settings", cookie_label: "Privacy choices", cookie_title: "Help us understand website traffic.", cookie_copy: "With your permission, eSEGuE uses Google Analytics to measure aggregate visits and improve the public website. Analytics is disabled until you accept. Advertising and personalised tracking remain disabled.", cookie_google_privacy: "Google privacy information", cookie_reject: "Decline analytics", cookie_accept: "Accept analytics"
   },
   it: {
     skip: "Vai al contenuto", nav_aria: "Navigazione principale", nav_technology: "Tecnologia", nav_products: "Prodotti", nav_process: "Processo", nav_roadmap: "Roadmap", language_aria: "Lingua", open_menu: "Apri menu", close_menu: "Chiudi menu",
@@ -17,7 +18,8 @@ const translations = {
     signal_visual_aria: "Vista illustrativa del Signal Engine multi-strategia", signal_context: "Contesto di mercato e orizzonte", signal_volatility: "Volatility Probability", signal_breakout: "Breakout V3", signal_dip: "Dip Long", signal_fundamental: "Ranking Fondamentale", signal_title: "Signal Engine Multi-Strategia", signal_lead: "Seleziona e ordina opportunita azionarie attraverso strategie complementari che si adattano al contesto di mercato e all'orizzonte di investimento.", signal_feature_1: "Volatility Probability: opportunita di breve termine in mercati incerti e privi di trend solidi", signal_feature_2: "Breakout V3: partecipazione di breve e medio periodo a trend rialzisti consolidati", signal_feature_3: "Dip Long: opportunita value temporaneamente penalizzate da regime o condizioni macro avverse", signal_feature_4: "Ranking Fondamentale: solidita e prospettive di business non ancora pienamente riflesse nei prezzi",
     regime_visual_aria: "Matrice illustrativa del Market Regime Engine", regime_title: "Market Regime Engine", regime_lead: "Misura la forza del trend su equity, tassi, credito, commodity e valute per identificare leadership, regime e rotazioni di capitale.", regime_feature_1: "Score 0-100 confrontabili tra sleeve di asset class", regime_feature_2: "Risk appetite, inflation pulse e leadership regionale", regime_feature_3: "Fasi di rotation stabile, in accelerazione e inversione", regime_analysis_only: "Solo analisi. Questo motore non puo inviare ordini.", rotation_europe: "Europa", rotation_usa: "USA", rotation_bonds: "Bond", rotation_equity: "Equity", rotation_commodities: "Commodity", rotation_credit: "Credito",
     process_label: "Processo", process_title: "Un percorso tracciabile dall'evidenza all'azione.", process_1_title: "Acquisire", process_1_copy: "Dati di mercato, eventi e contesto con provenienza esplicita di cache e fallback.", process_2_title: "Validare", process_2_copy: "Trend, freschezza e filtri hard definiscono la popolazione ammissibile.", process_3_title: "Prioritizzare", process_3_copy: "Lo scoring ordina opportunita valide senza superare i vincoli di sicurezza.", process_4_title: "Controllare", process_4_copy: "Cash, esposizione, duplicati e stato del broker restano gate indipendenti.", process_5_title: "Valutare", process_5_copy: "Fill e risultati futuri alimentano diagnostica, backtest e revisione delle policy.",
-    roadmap_label: "Roadmap", roadmap_title: "Costruire un livello piu ampio di market intelligence.", roadmap_1: "Maggiore copertura europea e cross-asset", roadmap_2: "Classificazione piu ricca dei regimi di mercato", roadmap_3: "Prioritizzazione dinamica basata sulle evidenze", roadmap_4: "Analisi di rischio e reporting a livello di portafoglio", footer_project: "Progetto indipendente di ricerca quantitativa.", footer_notice: "Contenuti a solo scopo informativo. Nulla di quanto pubblicato costituisce consulenza finanziaria. Le performance passate o simulate non garantiscono risultati futuri."
+    roadmap_label: "Roadmap", roadmap_title: "Costruire un livello piu ampio di market intelligence.", roadmap_1: "Maggiore copertura europea e cross-asset", roadmap_2: "Classificazione piu ricca dei regimi di mercato", roadmap_3: "Prioritizzazione dinamica basata sulle evidenze", roadmap_4: "Analisi di rischio e reporting a livello di portafoglio", footer_project: "Progetto indipendente di ricerca quantitativa.", footer_notice: "Contenuti a solo scopo informativo. Nulla di quanto pubblicato costituisce consulenza finanziaria. Le performance passate o simulate non garantiscono risultati futuri.",
+    cookie_settings: "Privacy e preferenze cookie", cookie_label: "Scelte sulla privacy", cookie_title: "Aiutaci a comprendere il traffico del sito.", cookie_copy: "Con il tuo consenso, eSEGuE utilizza Google Analytics per misurare le visite aggregate e migliorare il sito pubblico. Analytics resta disattivato finche non accetti. Pubblicita e tracciamento personalizzato rimangono disabilitati.", cookie_google_privacy: "Informazioni sulla privacy di Google", cookie_reject: "Rifiuta Analytics", cookie_accept: "Accetta Analytics"
   }
 };
 
@@ -26,6 +28,64 @@ const header = document.querySelector("[data-header]");
 const nav = document.querySelector("[data-nav]");
 const navToggle = document.querySelector("[data-nav-toggle]");
 const languageButtons = document.querySelectorAll("[data-language]");
+const consentBanner = document.querySelector("[data-consent-banner]");
+const consentAccept = document.querySelector("[data-consent-accept]");
+const consentReject = document.querySelector("[data-consent-reject]");
+const consentSettings = document.querySelector("[data-consent-settings]");
+const GOOGLE_ANALYTICS_ID = "G-2YTJV7388B";
+const CONSENT_STORAGE_KEY = "esegue-analytics-consent-v1";
+let analyticsLoaded = false;
+
+function loadGoogleAnalytics() {
+  if (analyticsLoaded) return;
+  analyticsLoaded = true;
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function gtag() { window.dataLayer.push(arguments); };
+  window.gtag("consent", "default", {
+    analytics_storage: "granted",
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied"
+  });
+  window.gtag("js", new Date());
+  window.gtag("config", GOOGLE_ANALYTICS_ID, {
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false
+  });
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GOOGLE_ANALYTICS_ID)}`;
+  document.head.appendChild(script);
+}
+
+function readAnalyticsConsent() {
+  try { return localStorage.getItem(CONSENT_STORAGE_KEY); } catch (_) { return null; }
+}
+
+function setAnalyticsConsent(value) {
+  try { localStorage.setItem(CONSENT_STORAGE_KEY, value); } catch (_) {}
+  if (value === "granted") loadGoogleAnalytics();
+  if (value === "denied" && analyticsLoaded && typeof window.gtag === "function") {
+    window.gtag("consent", "update", {
+      analytics_storage: "denied",
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied"
+    });
+  }
+  consentBanner.hidden = true;
+}
+
+function openConsentBanner() {
+  consentBanner.hidden = false;
+  requestAnimationFrame(() => consentBanner.classList.add("visible"));
+  consentReject?.focus();
+}
+
+function closeConsentBanner(value) {
+  consentBanner.classList.remove("visible");
+  setTimeout(() => setAnalyticsConsent(value), 180);
+}
 
 function translatePage(language) {
   const dictionary = translations[language] || translations.en;
@@ -51,6 +111,13 @@ let savedLanguage = "en";
 try { savedLanguage = localStorage.getItem("esegue-language") || "en"; } catch (_) {}
 translatePage(savedLanguage);
 languageButtons.forEach((button) => button.addEventListener("click", () => translatePage(button.dataset.language)));
+
+const storedAnalyticsConsent = readAnalyticsConsent();
+if (storedAnalyticsConsent === "granted") loadGoogleAnalytics();
+else if (storedAnalyticsConsent !== "denied") openConsentBanner();
+consentAccept?.addEventListener("click", () => closeConsentBanner("granted"));
+consentReject?.addEventListener("click", () => closeConsentBanner("denied"));
+consentSettings?.addEventListener("click", openConsentBanner);
 
 if (window.lucide) window.lucide.createIcons();
 

@@ -140,8 +140,24 @@ h2 { margin: 0; font-size: clamp(30px, 4.7vw, 66px); line-height: .98; font-weig
 .footer-layout > span { font-size: 11px; }
 .footer-links a { display: block; width: fit-content; margin-top: 6px; color: #dce1dd; font-size: 12px; text-decoration: none; }
 .footer-links a:hover, .footer-links a:focus-visible { color: #70d6ad; }
+.footer-links button { display: block; width: fit-content; margin: 6px 0 0; padding: 0; border: 0; background: transparent; color: #dce1dd; font: inherit; font-size: 12px; text-align: left; cursor: pointer; }
+.footer-links button:hover, .footer-links button:focus-visible { color: #70d6ad; outline: 0; }
 .footer-disclaimer { text-align: right; }
 .footer-disclaimer span { display: block; margin-top: 10px; color: #99a39d; font-size: 10px; }
+
+.consent-banner { position: fixed; z-index: 100; left: 50%; bottom: 22px; width: min(920px, calc(100vw - 44px)); padding: 24px; display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 34px; align-items: end; transform: translate(-50%, 22px); opacity: 0; background: var(--paper); color: var(--ink); border: 1px solid var(--blue-deep); box-shadow: 0 16px 48px rgba(8,10,9,.22); transition: transform .18s ease, opacity .18s ease; }
+.consent-banner[hidden] { display: none; }
+.consent-banner.visible { transform: translate(-50%, 0); opacity: 1; }
+.consent-copy { max-width: 600px; }
+.consent-label { margin: 0 0 8px; color: var(--green); font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; }
+.consent-copy h2 { margin: 0; font-size: 24px; line-height: 1.1; }
+.consent-copy > p:not(.consent-label) { margin: 12px 0 8px; color: #53606c; font-size: 13px; }
+.consent-copy a { color: var(--blue-deep); font-size: 11px; }
+.consent-actions { display: flex; gap: 10px; }
+.consent-button { min-height: 42px; padding: 0 14px; border: 1px solid var(--blue-deep); cursor: pointer; font-size: 11px; font-weight: 800; }
+.consent-button.primary { background: var(--blue-deep); color: var(--white); }
+.consent-button.secondary { background: transparent; color: var(--blue-deep); }
+.consent-button:hover, .consent-button:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
 
 @media (max-width: 980px) {
   :root { --shell: min(100% - 40px, 820px); }
@@ -199,6 +215,8 @@ h2 { margin: 0; font-size: clamp(30px, 4.7vw, 66px); line-height: .98; font-weig
   .process-flow li, .process-flow li:last-child { grid-column: auto; min-height: 210px; border-left: 1px solid var(--line); }
   .footer-layout { grid-template-columns: 1fr; align-items: start; }
   .footer-disclaimer { text-align: left; }
+  .consent-banner { bottom: 12px; width: calc(100vw - 24px); grid-template-columns: 1fr; gap: 20px; padding: 20px; }
+  .consent-actions { display: grid; grid-template-columns: 1fr 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {
