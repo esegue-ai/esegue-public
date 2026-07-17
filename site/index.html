@@ -184,10 +184,23 @@
         </span>
         <p data-i18n="footer_project">Independent quantitative research project.</p>
       </div>
-      <div class="footer-links"><a href="https://github.com/esegue-ai/esegue-public" target="_blank" rel="noreferrer">GitHub</a><a href="https://esegue.ai">esegue.ai</a></div>
+      <div class="footer-links"><a href="https://github.com/esegue-ai/esegue-public" target="_blank" rel="noreferrer">GitHub</a><a href="https://esegue.ai">esegue.ai</a><button type="button" data-consent-settings data-i18n="cookie_settings">Privacy &amp; cookie settings</button></div>
       <div class="footer-disclaimer"><p data-i18n="footer_notice">For informational purposes only. Nothing published here constitutes investment advice. Past or simulated performance does not guarantee future results.</p><span>&copy; <span data-year></span> eSEGuE. All rights reserved.</span></div>
     </div>
   </footer>
+
+  <aside class="consent-banner" data-consent-banner role="dialog" aria-modal="true" aria-labelledby="consent-title" aria-describedby="consent-copy" hidden>
+    <div class="consent-copy">
+      <p class="consent-label" data-i18n="cookie_label">Privacy choices</p>
+      <h2 id="consent-title" data-i18n="cookie_title">Help us understand website traffic.</h2>
+      <p id="consent-copy" data-i18n="cookie_copy">With your permission, eSEGuE uses Google Analytics to measure aggregate visits and improve the public website. Analytics is disabled until you accept. Advertising and personalised tracking remain disabled.</p>
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" data-i18n="cookie_google_privacy">Google privacy information</a>
+    </div>
+    <div class="consent-actions">
+      <button class="consent-button secondary" type="button" data-consent-reject data-i18n="cookie_reject">Decline analytics</button>
+      <button class="consent-button primary" type="button" data-consent-accept data-i18n="cookie_accept">Accept analytics</button>
+    </div>
+  </aside>
 
   <script src="assets/lucide.min.js"></script>
   <script src="app.js"></script>
